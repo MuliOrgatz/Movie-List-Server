@@ -26,7 +26,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-app.get('/', (req,res)=>{res.send('it is wotking')})
+app.get('/', (req,res)=>{res.send('the server is working!')})
 app.post('/signin', signin.handleSignIn(db,bcrypt))
 app.post('/register', (req,res) => {register.handleRegister(req,res,db,bcrypt)})
 app.post ('/movieSearch',(req,res)=> {movies.handleApiCall(req,res)})
