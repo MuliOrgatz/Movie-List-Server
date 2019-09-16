@@ -38,8 +38,3 @@ app.listen(process.env.PORT || 3001,()=>{
     console.log(`app is running in port ${process.env.PORT}`);
 })
 
-
-/*
-connectionString: process.env.DATABASE_URL,
-      ssl: true,
-*/
