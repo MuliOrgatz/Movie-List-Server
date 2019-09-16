@@ -1,5 +1,5 @@
 # Movie-List-Server
-The server of Movie-List created with Node.js And Express.js, Postgres SQL
+The server of Movie-List created with Node.js, Express.js And Postgres SQL
 
 [![NPM Version][npm-image]][npm-url]
 
