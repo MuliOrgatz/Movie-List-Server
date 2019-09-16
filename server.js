@@ -12,10 +12,8 @@ const messages = require('./controllers/messages');
 const db = knex({
     client: 'pg',
     connection: {
-      host: '127.0.0.1',
-      user:'postgres',
-      password:'test',
-      database:'movie-web'
+      connectionString: process.env.DATABASE_URL,
+      ssl: true,
     }
 });
 
